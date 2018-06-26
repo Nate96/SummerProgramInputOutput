@@ -30,4 +30,4 @@ class TestInputOutput(unittest.TestCase):
         self.assertEqual(5, self.InputOutput.add(-5, 10))
 
     def test_run(self):
-        self.assertEqual (10, self.InputOutput.run())
+        self.assertEqual(10, self.InputOutput.run())

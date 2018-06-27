@@ -10,7 +10,6 @@ class InputOutput:
     # 1): Declare 2 *global variables* and name them number1
     #     and number2 and set them to 0
 
-
     # Method that will get Input from the user
     # 2): Use the input() method in the int() to get input from the
     #     user

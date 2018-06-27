@@ -6,6 +6,10 @@ class TestInputOutput(unittest.TestCase):
     def setUp(self):
         self.InputOutput = InputOutput()
 
+    def test_globalVariables(self):
+        self.assertEqual(0, self.InputOutput.number1)
+        self.assertEqual(0, self.InputOutput.number2)
+
     # This will test getInput method.
     # To run the test click on the little green arrow on the left
     # next to the line number.
